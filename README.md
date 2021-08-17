@@ -1,3 +1,7 @@
+<h2 align="center">
+🚨 v3 is now deprecated, please use the latest version.  🚨
+</h2>
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/20338451/104735089-2ada2f00-570f-11eb-9f92-1587b473694a.png" width="392" height="150" /><br />
 </p>
@@ -6,16 +10,13 @@
 Capacitor community support for the Electron platform. 
 </p>
 <p align="center">
-  <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<a href="#contributors"><img src="https://img.shields.io/badge/all%20contributors-11-orange?style=flat-square" /></a>
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-  <a href="https://www.electronjs.org/releases/stable?version=12"><img src="https://img.shields.io/badge/supported%20electron%20version-~13.1.3-blue?style=flat-square" /></a>
+  <a href="https://www.electronjs.org/releases/stable?version=12"><img src="https://img.shields.io/badge/supported%20electron%20version-~13.1.9-blue?style=flat-square" /></a>
+  <a href="https://github.com/capacitor-community/electron"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/capacitor-community/electron/CI/main?style=flat-square"></a>
 </p>
 <p align="center">
-  <a href="https://npmjs.com/package/@capacitor-community/electron"><img src="https://img.shields.io/npm/v/@capacitor-community/electron.svg?style=flat-square" /></a>
+  <a href="https://npmjs.com/package/@capacitor-community/electron"><img src="https://img.shields.io/badge/npm%20version-3.1.0-blue?style=flat-square" /></a>
   <a href="https://npmjs.com/package/@capacitor-community/electron"><img alt="npm" src="https://img.shields.io/npm/dw/@capacitor-community/electron?style=flat-square"></a>
   <a href="https://npmjs.com/package/@capacitor-community/electron"><img src="https://img.shields.io/npm/l/@capacitor-community/electron.svg?style=flat-square" /></a>
-  <a href="https://github.com/capacitor-community/electron"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/capacitor-community/electron/CI/main?style=flat-square"></a>
 </p>
 
 ## Maintainers
