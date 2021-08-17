@@ -24,18 +24,7 @@ Capacitor community support for the Electron platform.
 | Maintainer       | GitHub                                  | Social                                    | Sponsoring Company | Primary |
 | ---------------- | --------------------------------------- | ----------------------------------------- | ------------------ | ------- |
 | Mike Summerfeldt | [IT-MikeS](https://github.com/IT-MikeS) | [@IT_MikeS](https://twitter.com/IT_MikeS) | Volunteer          | Yes     |
-
-Maintenance Status: Actively Maintained
-
-## Version 3 Info
-- Minimum `@capacitor/cli` and `@capacitor/core` version is `>= 3.0.0`
-- The template and inner workings have changed a lot, a migration guide will be done but for now creating a new project to tinker with before migrating main projects is a good idea.
-- Plugins from previous versions `@capacitor-community/electron` will not function in V3, however all web plugins will continue to function as normal.
-- V3 comes with no plugins out of the box like previous versions. Instead V3 follows Capacitor in seperated plugins, see [Dialog Plugin](https://capacitorjs.com/docs/v3/apis/dialog) for an example.
-
-## Documentation:
-
-[You can find the docs site here.](https://capacitor-community.github.io/electron/)
+ 
 
 ## Security
 
