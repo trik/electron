@@ -95,7 +95,9 @@ export function setupCapacitorElectronPlugins(): void {
         pluginInstanceRegistry[classKey] = new plugins[pluginKey][classKey]();
       }
 
-      const functionList = Object.getOwnPropertyNames(plugins[pluginKey][classKey].prototype).filter((v) => v !== 'constructor');
+      const functionList = Object.getOwnPropertyNames(plugins[pluginKey][classKey].prototype).filter(
+        (v) => v !== 'constructor'
+      );
 
       for (const functionName of functionList) {
         console.log(`--> ${functionName}`);
@@ -108,8 +110,8 @@ export function setupCapacitorElectronPlugins(): void {
         });
       }
 
-    // For every Plugin which extends EventEmitter, start listening for 'event-add-{classKey}'
-    if (pluginInstanceRegistry[classKey] instanceof EventEmitter) {
+      // For every Plugin which extends EventEmitter, start listening for 'event-add-{classKey}'
+      if (pluginInstanceRegistry[classKey] instanceof EventEmitter) {
         // Listen for calls about adding event listeners (types) to this particular class
         // This is only called by renderer when the first addListener of a particular type is requested
         ipcMain.on(`event-add-${classKey}`, (event, type) => {

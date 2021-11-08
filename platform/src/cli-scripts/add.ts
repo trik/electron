@@ -9,13 +9,7 @@ import { readJSON, runExec, writePrettyJSON } from './common';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function doAdd(taskInfoMessageProvider: TaskInfoProvider): Promise<void> {
   const usersProjectDir = process.env.CAPACITOR_ROOT_DIR;
-  const platformNodeModuleTemplateTar = join(
-    usersProjectDir,
-    'node_modules',
-    '@capacitor-community',
-    'electron',
-    'template.tar.gz'
-  );
+  const platformNodeModuleTemplateTar = join(usersProjectDir, 'node_modules', 'capacitor-electron', 'template.tar.gz');
   const destDir = join(usersProjectDir, 'electron');
   let usersProjectCapConfigFile: string | undefined = undefined;
   let configFileName: string | undefined = undefined;

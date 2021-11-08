@@ -1,9 +1,5 @@
-import type { CapacitorElectronConfig } from '@capacitor-community/electron';
-import {
-  CapElectronEventEmitter,
-  CapacitorSplashScreen,
-  setupCapacitorElectronPlugins,
-} from '@capacitor-community/electron';
+import type { CapacitorElectronConfig } from 'capacitor-electron';
+import { CapElectronEventEmitter, CapacitorSplashScreen, setupCapacitorElectronPlugins } from 'capacitor-electron';
 import chokidar from 'chokidar';
 import type { MenuItemConstructorOptions } from 'electron';
 import { app, BrowserWindow, Menu, MenuItem, nativeImage, Tray, session } from 'electron';
